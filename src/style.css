@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Jua|Maven+Pro|Quicksand:500');
+
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Hind', sans-serif;
+font-family: 'Jua', sans-serif;
+font-family: 'Maven Pro', sans-serif; */
+
+body {
+  background: #EEEEEE;
+}
+
+.main {
+  background: #FFF;
+  border-radius: 25px;
+  box-shadow:0px 0px 28px 6px #838080;
+  margin-right: 30%;
+  margin-left: 30%;
+  padding: 10px 5px 25px 5px;
+}
+
+.main:hover {
+  transition: .1s ease-out;
+  box-shadow:0px 0px 38px 12px #838080;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+
+.true {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task {
+  height: 30px;
+  width: 355px;
+  vertical-align: baseline;
+  border: 1px solid #FFF;
+  padding: 4px 10px 0px 10px;
+  margin: 2px 0px 0px 2px;
+}
+
+.task:hover {
+  border-top: 1px ridge #AAA;
+  border-bottom: 1px ridge #AAA;
+}
+
+.task .fa-check-circle {
+  float: left;
+  color: green;
+  font-size: 26px;
+}
+
+.task .fa-times-circle {
+  float: right;
+  color: red;
+  font-size: 26px;
+}
+
+.task span {
+  margin-left: 12px;
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .header-title {
+  font-family: 'Jua', sans-serif;
+  color: #212121;
+}
+
+.body .body-form input {
+  border-radius: 25px 0px 0px 25px;
+  padding: 7px;
+  border-width: 1px;
+  font-size: 18px;
+  height: 28px;
+  font-family: 'Jua', sans-serif;
+}
+
+.body .body-form button {
+  color: #FFFAFA !important;
+  font-size: 16px;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 0px 25px 25px 0px;
+  border: 2px solid #3866A3;
+  background: #3F51B5;
+  font-family: 'Jua', sans-serif;
+}
+
+.body .body-form button:hover {
+  transition: .1s ease-out;
+  background: #596EC2;
+}
+
+.body .body-title {
+  font-family: 'Jua', sans-serif;
+}
+
+.task > i.fa-check-circle {
+  visibility: hidden;
+}
+
+.task:hover > i.fa-check-circle {
+  visibility: visible;
+}
+
+.body .body-list {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.body .body-btns {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.body .body-btns div {
+  font-family: 'Jua', sans-serif;
+  border-radius: 28px;
+  text-shadow: 2px 2px 1px #4f484f;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+}
+
+.body .body-btns div:first-child {
+  background: #FFD54F;
+}
+
+.body .body-btns div:first-child:hover {
+  background: #FFE082;
+  text-decoration: none;
+}
+
+.body .body-btns div:nth-child(2) {
+  background: #81C784;
+}
+
+.body .body-btns div:nth-child(2):hover {
+  background: #A5D6A7;
+  text-decoration: none;
+}
+
+.body .body-btns div:nth-child(3) {
+  background: #9575CD;
+}
+
+.body .body-btns div:nth-child(3):hover {
+  background: #B39DDB;
+  text-decoration: none;
+}
